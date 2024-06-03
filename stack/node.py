@@ -12,7 +12,7 @@ def size(self):
 def isEmpty(self):
     return (self.size()==0)
 def push(self,val):
-    newNode=Node(val,head)
+    newNode=Node(val)
     self.head=newNode
     
 
@@ -25,10 +25,3 @@ def pop(self):
     data=self.__head.__data
     temp=self.__head
     self.head=self.head.node
-
-
-
-def top(self):
-
-        
-    
